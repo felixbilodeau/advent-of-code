@@ -379,7 +379,6 @@ int main(void)
         return 1;
     }
     BrickArray_layer(ba);
-    BrickArray_print(ba);
     printf("Destroyable: %u\n", BrickArray_count_destroyable(ba));
     BrickArray_free(ba);
     return 0;

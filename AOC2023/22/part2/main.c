@@ -492,7 +492,6 @@ int main(void)
         return 1;
     }
     BrickArray_layer(ba);
-    BrickArray_print(ba);
     for (i = total = 0; i < ba->length; ++i) {
         total = total + BrickArray_count_chain(ba, i);
     }
